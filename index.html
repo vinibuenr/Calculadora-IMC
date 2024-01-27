@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta name="description" content="Calculadora IMC">
+    <title>Calculadora IMC</title>
+    <!--Cascading style sheets-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="body">
+    <div class="container">
+        <section id="inicio">
+            <h1> Cálculo IMC</h1>
+            <h3> <strong> "IMC" </strong> é a sigla para <strong>Índice de Massa Corpórea</strong>, parâmetro adotado
+                pela <em>Organização Mundial de Saúde</em> para calcular o peso ideal de cada pessoa. </h3>
+
+            <section id="formulario">
+                <label> <strong> Peso: </strong></label><input type="text" placeholder="" class="peso"> <br />
+                <label> <strong> Altura: </strong> </label><input placeholder="Ex.: 1.90" type="text" class="altura"> <br />
+
+                <button id="botao" class="button-82-pushable" role="button">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">
+                        Calcular
+                    </span>
+                </button>
+            </section>
+
+            <div class="resultado"> </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div id="copyright">
+            <h1 id="footer"> Desenvolvido por <a href="https://www.linkedin.com/in/vinicius--bueno/"
+                    target="_blank">Vinícius Bueno </a></h1>
+            <button id="darkmode">
+                <span class="fa fa-moon-o" aria-hidden="true"></span> 
+                <span class="fa fa-sun-o disable" aria-hidden="true"></span>
+            </button>
+
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
